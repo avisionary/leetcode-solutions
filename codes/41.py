@@ -1,5 +1,5 @@
 class Solution:
-    def firstMissingPositive(self, nums: List[int]) -> int:
+    def firstMissingPositive(self, nums) -> int:
         nums = set(nums)
         x = max(nums)
         if x<0:
