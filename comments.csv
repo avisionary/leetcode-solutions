@@ -5,3 +5,5 @@ However do it from scratch: This is a backtracking problem, so using recursion i
 The solution that does work is by converting to binary and counting the presence of 1 in that"
 344,Reverse String,"Can be done using pythons reverse function. However, to do it from scratch use recursion.
 The idea is to know when you reach the middle so that you can stop reversing. For this we use two pointers called left and right."
+5,Longest Palindromic Substring,"Started doing it from extreme ends of the string and worked inwards. This however exceeded time limit for some test cases.
+An alternate and quicer way to do it is by working from middle to outer sections."
