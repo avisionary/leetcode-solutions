@@ -1,14 +1,7 @@
-﻿Problem Number,Name,Comments,
+﻿Problem Number,Name,Comments
 46,Pemutation,"Can do it using the itertools.pemutation
-However do it from scratch: This is a backtracking problem, so using recursion is a good choice. Need to know the basecase first though.",
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,w
+However do it from scratch: This is a backtracking problem, so using recursion is a good choice. Need to know the basecase first though."
+231,Power of 2,"Can be done using taking log. Also done using recursion. However both these methods don't clear all test cases because of runtime error. 
+The solution that does work is by converting to binary and counting the presence of 1 in that"
+344,Reverse String,"Can be done using pythons reverse function. However, to do it from scratch use recursion.
+The idea is to know when you reach the middle so that you can stop reversing. For this we use two pointers called left and right."
