@@ -7,3 +7,5 @@ The solution that does work is by converting to binary and counting the presence
 The idea is to know when you reach the middle so that you can stop reversing. For this we use two pointers called left and right."
 5,Longest Palindromic Substring,"Started doing it from extreme ends of the string and worked inwards. This however exceeded time limit for some test cases.
 An alternate and quicer way to do it is by working from middle to outer sections."
+35,Search Insert Position,"Can be done using any searching algorithm.
+I have done it using binary search. Recursion has been used to do that."
