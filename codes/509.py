@@ -8,6 +8,8 @@ class Solution:
             return memo[n]
         if n==1 or n==2:
             return 1
+        elif n==0:
+            return 0
         else:
             memo[n] =  self.fib(n-1,memo) + self.fib(n-2,memo)
             return memo[n]
