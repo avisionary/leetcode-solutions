@@ -1,3 +1,9 @@
-x = [1,2,5,6]
+x = "hello"
+r = "ll"
 
-print(x[(1+3)//2])
+i = 0
+j = i + len(r)
+
+y = x[i:j]
+
+print(y)

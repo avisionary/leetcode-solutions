@@ -9,3 +9,7 @@ The idea is to know when you reach the middle so that you can stop reversing. Fo
 An alternate and quicer way to do it is by working from middle to outer sections."
 35,Search Insert Position,"Can be done using any searching algorithm.
 I have done it using binary search. Recursion has been used to do that."
+53,Maximum Subarray,Done using dynamic programming.
+509,Fibbonaci Number,"The first approach Is to try this with Reursion which is very staright forward.
+However, that throws max depth error on leetcode. So dynamic programming has to be used.
+The key concept to keep in mind is that a value that has been computed gets computed again in recursion. So we use a dictonary to store these values and access them if needed."
