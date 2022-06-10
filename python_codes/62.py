@@ -7,7 +7,7 @@ class Solution:
             return 1
         elif m == 0 or n == 0:
             return 0
-        memo[key] = self.uniquePaths(m-1,n) + self.uniquePaths(m,n-1)
+        memo[key] = self.uniquePaths(m-1,n,memo) + self.uniquePaths(m,n-1,memo)
         memo[(n,m)] = memo[key]
         return memo[key]
 
